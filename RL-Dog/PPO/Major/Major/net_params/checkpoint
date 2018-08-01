@@ -1,0 +1,2 @@
+model_checkpoint_path: "object_ppo"
+all_model_checkpoint_paths: "object_ppo"
