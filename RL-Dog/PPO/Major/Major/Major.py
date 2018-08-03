@@ -93,7 +93,7 @@ class UICenter(QDialog,Server):
                 self.ppo.ppo_initializer(judge = 'train')
                 self.rbTrain.setChecked(True)
                 
-                self.writer = tf.summary.FileWriter('logs/',self.ppo.sess.graph)  
+                
 
             elif Method == 'run':
                 self.Receive_Msg.connect(self.Run_Process)       #TCP Signal emits states message
@@ -120,8 +120,8 @@ class UICenter(QDialog,Server):
                 
 
             elif self.pb_Create.text() == "Close Server":
-                 self.pb_Create.setText("Create Server")
-                 
+
+                 self.pb_Create.setText("Create Server")                
                  self.serverShutDown()
                  self.textContent.append("Has Been shut down TCP Server at "+self.ipAddress+" _ "+str(self.ipPort))
                  

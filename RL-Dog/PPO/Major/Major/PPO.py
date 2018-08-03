@@ -169,6 +169,7 @@ class PPO(object):
         if judge == 'train':
 
             self.sess.run(tf.global_variables_initializer())
+            self.writer = tf.summary.FileWriter('logs/',self.sess.graph)
 
         elif judge == 'run':
 
