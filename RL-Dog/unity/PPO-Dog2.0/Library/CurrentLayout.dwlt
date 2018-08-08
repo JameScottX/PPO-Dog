@@ -14,7 +14,7 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 61
-    y: 120
+    y: 51
     width: 1315
     height: 765
   m_ShowMode: 4
@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1315
     height: 715
-  m_MinSize: {x: 885, y: 492}
-  m_MaxSize: {x: 16010, y: 14042}
+  m_MinSize: {x: 887, y: 492}
+  m_MaxSize: {x: 16012, y: 14042}
   vertical: 0
-  controlID: 43
+  controlID: 48
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,10 +130,10 @@ MonoBehaviour:
     y: 0
     width: 1038
     height: 715
-  m_MinSize: {x: 608, y: 492}
-  m_MaxSize: {x: 12008, y: 14042}
+  m_MinSize: {x: 610, y: 492}
+  m_MaxSize: {x: 12010, y: 14042}
   vertical: 1
-  controlID: 44
+  controlID: 49
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -155,10 +155,10 @@ MonoBehaviour:
     y: 0
     width: 1038
     height: 444
-  m_MinSize: {x: 608, y: 221}
-  m_MaxSize: {x: 12008, y: 4021}
+  m_MinSize: {x: 610, y: 221}
+  m_MaxSize: {x: 12010, y: 4021}
   vertical: 0
-  controlID: 45
+  controlID: 50
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -177,8 +177,8 @@ MonoBehaviour:
     y: 0
     width: 202
     height: 444
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -342,7 +342,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 748
-    y: 169
+    y: 100
     width: 349
     height: 423
   m_MaximizeOnPlay: 0
@@ -418,28 +418,28 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 61
-    y: 169
+    y: 100
     width: 200
     height: 423
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 24260000
-    m_LastClickedID: 0
-    m_ExpandedIDs: c440ffff1afcffff000000005e26000094260000b4260000742a0000
+    m_SelectedIDs: b4260000
+    m_LastClickedID: 9908
+    m_ExpandedIDs: 1afcffff000000005e2600007226000094260000da26000006270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: foot
-      m_OriginalName: foot
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 9996
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
@@ -471,7 +471,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 265
-    y: 169
+    y: 100
     width: 479
     height: 423
   m_SceneLighting: 1
@@ -480,9 +480,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -29.199028, y: 4.0430684, z: 10.413816}
+    m_Target: {x: -13.7836485, y: 7.6770883, z: -24.093582}
     speed: 2
-    m_Value: {x: -29.199028, y: 4.0430684, z: 10.413816}
+    m_Value: {x: -13.7836485, y: 7.6770883, z: -24.093582}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -505,13 +505,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.027856955, y: 0.62449723, z: 0.022296263, w: -0.78021157}
+    m_Target: {x: 0.025636433, y: 0.96258944, z: 0.09822296, w: -0.25123033}
     speed: 2
-    m_Value: {x: 0.027856955, y: 0.62449723, z: 0.022296263, w: -0.78021157}
+    m_Value: {x: 0.025636433, y: 0.96258944, z: 0.09822296, w: -0.25123033}
   m_Size:
-    m_Target: 36.966164
+    m_Target: 32.196934
     speed: 2
-    m_Value: 36.966164
+    m_Value: 32.196934
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -571,7 +571,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 61
-    y: 613
+    y: 544
     width: 1036
     height: 250
   m_SearchFilter:
@@ -586,18 +586,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/material
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/material
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\17973\Desktop\RL-Dog\unity\PPO-Dog2.0
+  m_LastProjectPath: C:\Users\17973\Desktop\Git_Hub\PPO-Dog\RL-Dog\unity\PPO-Dog2.0
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3e260000
-    m_LastClickedID: 9790
+    m_SelectedIDs: 18260000
+    m_LastClickedID: 9752
     m_ExpandedIDs: 00000000182600001c26000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -653,7 +653,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300007a2f00009e320000663a00008235000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -848,10 +848,10 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1101
-    y: 169
+    y: 100
     width: 275
     height: 694
-  m_ScrollPosition: {x: 0, y: 0}
+  m_ScrollPosition: {x: 0, y: 300}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: -160
